@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+          width: 748px;
+          height: 748px;
+          background-color: aliceblue;
+          display: grid;
+         grid-template-columns: 320px 198px 153px 50px;
+         grid-template-rows: 414px 130px 155px 20px;
+        
+        }
+        #ss{
+            border-right: 5px solid black;
+            border-bottom: 5px solid black;
+        }
+        
+        #three{
+            grid-column: 2/5;
+            border-bottom: 5px solid black;
+        }
+        #four{
+            grid-row: 2/4;
+            border-bottom: 5px solid black;
+            border-right: 5px solid black;
+        }
+       #five{
+        grid-row: 2/4;
+        grid-column: 2/4;
+        border-right: 5px solid black;
+        border-bottom: 5px solid black;
+       }
+       #six{
+          border-bottom: 10px solid black;
+       }
+        #nine{
+            border-right: 5px solid black;
+        }
+        #seven{
+            border-right: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="two" id="ss" style="background-color: red;"></div>
+        <div class="two" id="three"></div>
+        <div class="two" id="four"></div>
+        <div class="two" id="five"></div>
+        <div class="two" id="six" style="background-color: blue;"></div>
+        <div class="two"></div>
+        <div class="two"  id="nine"></div>
+        <div class="two" id="seven" style="background-color: rgb(200, 230, 9);"></div>
+        <div class="two" id="eight" style="background-color: rgb(107, 105, 105);"></div>
+    </div>
+</body>
+</html>
